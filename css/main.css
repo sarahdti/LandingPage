@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("../fonts/Vazir.eot");
+  src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir.woff2") format("woff2"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/vazir.ttf") format("truetype");
+}
+
+/* Body */
+body {
+  font-family: "Vazir" !important;
+}
+
+/* Utilities */
+.hover-grow {
+  transition: all 0.5s;
+}
+.hover-grow:hover {
+  transform: scale(1.1);
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 1.8 !important;
+}
+
+/* header */
+.header-scrolled {
+  background-color: #fff;
+  box-shadow: 0px 2px 20px rgb(1 41 112 /10%);
+}
+.header {
+  transition: all 0.5s;
+  padding: 20px 0px;
+}
+
+@media (max-width: 992px) {
+  .header {
+    background: #fff;
+  }
+}
+
+/* Intro */
+.intro {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/intro/intro-bg.png") top center no-repeat;
+  background-size: cover;
+}
