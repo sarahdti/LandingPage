@@ -85,3 +85,8 @@ p {
 .count i.red{
   color: #bb0852;
 }
+/* Features */
+.feature i{
+  font-size: 2.7rem;
+  color: #4154f1;
+}
