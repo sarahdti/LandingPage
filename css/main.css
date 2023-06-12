@@ -162,8 +162,15 @@ p {
   background: #f68c09;
 }
 .services .service-box.green:hover {
-  background: #08da4eA;
+  background: #08da4e;
 }
 .services .service-box:hover .read-more {
   color: #fff;
+}
+/* Pricing */
+.pricing .card{
+ transition: all .3s;
+}
+.pricing .card:hover{
+ transform:scale(1.1)
 }
